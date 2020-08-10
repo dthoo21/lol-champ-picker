@@ -28,5 +28,4 @@ while (select == False): # Repeat while operation has failed
         select = True # Cease loop. Operation has succeeded
 
     except:
-        print("Cannot not find elements. Sleep for 1 seconds.")
-        time.sleep(1) # Limit loop speed
+        print("Cannot not find elements. Looping.")
